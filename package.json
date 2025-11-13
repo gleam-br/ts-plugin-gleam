@@ -1,0 +1,47 @@
+{
+  "name": "ts-plugin-gleam",
+  "description": "Gleam plugin to typescript runtime.",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/index.cjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "bunup",
+    "dev": "bunup --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "author": {
+    "name": "@gleam-br",
+    "email": "contato@gleam.dev.br"
+  },
+  "keywords": [
+    "typescript",
+    "gleam",
+    "ts-plugin",
+    "vite-plugin"
+  ],
+  "repository": {
+    "url": "git+https://github.com/gleam-br/ts-plugin-gleam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gleam-br/ts-plugin-gleam/issues"
+  },
+  "dependencies": {
+    "core-plugin-gleam": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.2",
+    "bunup": "^0.15.14"
+  }
+}
