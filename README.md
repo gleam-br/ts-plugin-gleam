@@ -11,6 +11,7 @@
 
 ## 🧪 Demo
 
+- [vite-ts-plugin-gleam-demo](https://github.com/gleam-br/vite-ts-plugin-gleam-demo)
 - [bun-plugin-gleam-demo](https://github.com/gleam-br/bun-plugin-gleam-demo)
 - [bunup-plugin-gleam-demo](https://github.com/gleam-br/bunup-plugin-gleam-demo)
 - [vite-plugin-gleam-demo](https://github.com/gleam-br/vite-plugin-gleam-demo)
