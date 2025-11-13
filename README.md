@@ -18,6 +18,8 @@
 
 ## 🌄 Roadmap
 
+- [ ] Fix `npx tsc`
+  - [ ] `error TS2307: Cannot find module './counter.gleam' or its corresponding type declarations.`
 - [ ] Unit tests
 - [ ] More docs
 - [ ] GH workflow
